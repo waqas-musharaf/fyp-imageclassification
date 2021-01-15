@@ -1,0 +1,32 @@
+(FYP) C:\Users\Waqas>python C:\Users\Waqas\PyScripts\Main\classify_stanfordcar_05-95.py
+----------------------------------------------------------
+Predictor Accuracy Scores:
+
+MLR: 0.014814814814814815
+MNB: 0.012345679012345678
+SVC (Kernel=Sigmoid): 0.011111111111111112
+SVC (Kernel=RBF): 0.011111111111111112
+KNN (K=5): 0.013580246913580247
+KNN (K=46): 0.019753086419753086
+KNN (K=68): 0.02345679012345679
+KNN (K=91): 0.019753086419753086
+KNN (K=182): 0.020987654320987655
+DT: 0.013580246913580247
+----------------------------------------------------------
+Logarithmic Loss:
+
+Due to a known bug with metrics.log_loss and model_selection.train_test_split, where train/test datasets are split with uneven number of classes, resulting in logarithmic loss being un-calculatable, this metric has been dropped for this dataset.
+----------------------------------------------------------
+F1 Score:
+
+MLR: 0.014814814814814815
+MNB: 0.012345679012345678
+SVC (Kernel=Sigmoid): 0.011111111111111112
+SVC (Kernel=RBF): 0.011111111111111112
+KNN (K=5): 0.013580246913580247
+KNN (K=46): 0.019753086419753086
+KNN (K=68): 0.023456790123456788
+KNN (K=91): 0.019753086419753086
+KNN (K=182): 0.020987654320987655
+DT: 0.013580246913580247
+----------------------------------------------------------

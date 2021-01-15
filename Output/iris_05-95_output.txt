@@ -1,0 +1,44 @@
+(FYP) C:\Users\Waqas>python C:\Users\Waqas\PyScripts\Main\classify_iris_05-95.py
+----------------------------------------------------------
+Predictor Accuracy Scores:
+
+MLR: 1.0
+MNB: 1.0
+SVC (Kernel=Poly): 1.0
+SVC (Kernel=Sigmoid): 0.25
+SVC (Kernel=RBF): 1.0
+KNN (K=5): 1.0
+KNN (K=8): 1.0
+KNN (K=12): 1.0
+KNN (K=16): 1.0
+KNN (K=30): 1.0
+DT: 1.0
+----------------------------------------------------------
+Logarithmic Loss:
+
+MLR: 0.047298824433905075
+MNB: 0.5097184742964828
+SVC (Kernel=Poly): 0.024439423744056825
+SVC (Kernel=Sigmoid): 1.089125421869308
+SVC (Kernel=RBF): 0.0296779961592747
+KNN (K=5): 2.1094237467877998e-15
+KNN (K=8): 2.1094237467877998e-15
+KNN (K=12): 0.010876422123705678
+KNN (K=16): 0.04264634467534768
+KNN (K=30): 0.07922009972651042
+DT: 2.1094237467877998e-15
+----------------------------------------------------------
+F1 Score:
+
+MLR: 1.0
+MNB: 1.0
+SVC (Kernel=Poly): 1.0
+SVC (Kernel=Sigmoid): 0.25
+SVC (Kernel=RBF): 1.0
+KNN (K=5): 1.0
+KNN (K=8): 1.0
+KNN (K=12): 1.0
+KNN (K=16): 1.0
+KNN (K=30): 1.0
+DT: 1.0
+----------------------------------------------------------
